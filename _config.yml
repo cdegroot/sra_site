@@ -19,8 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Split rail artists is a vibrant and informal group of friendly people who m eet weekly to paint and develop their skills. As an art association we seek to promote ourselves and our community, hold workshops an d exhibit our work in a spirit of mutual support. Located in Grey Highlands,we welcome like minded individuals to join our group.
 baseurl: "/sra_site" # the subpath of your site, e.g. /blog
 url: "https://cdegroot.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
@@ -42,3 +40,9 @@ exclude:
   - .tool-versions
 
 destination: docs
+page_gen:
+- index_files: false
+  data: artists
+  name: 0
+  template: artist
+  dir: artist
