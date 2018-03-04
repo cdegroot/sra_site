@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "palette";
+
+// https://www.colordudes.com/color-palette/2mJtDEN
+$body-bg: $color1;
+$blue: $color2;
+$secondary: $color3;
+$body-color: $color4;
+$dark: $color5;
+$white: $color3;
+$font-family-base: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+// Make the base font a bit bigger. Old people ;-)
+$font-size-base: 1.25rem;
+
+@import "bootstrap";
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
