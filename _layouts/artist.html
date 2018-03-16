@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<h1>{{ page.artist }}</h2>
-
-{{ page.blurb }}
-<p>
-
-Pictures to follow
+<div class="container">
+  <div class="row">
+    <h1>{{ page.artist }}</h2>
+    <p>{{ page.blurb }}</p>
+  </div>
+  <div class="row">
+    <div id="artistCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        {% for pic in page.pics %}
+          <li data-target="#artistCarousel" 
+              data-slide-to="{{ forloop.index }}" 
+              class="{% if forloop.first %}active{% endif %}"></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        {% for pic in page.pics %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %%}">
+            <img class="d-block w-100" src="{{ "/assets/pics/" | append:pic | relative_url }}" style="object-fit:contain;">
+          </div>
+        {% endfor %}
+      </div>
+      <a class="carousel-control-prev" href="#artistCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#artistCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
