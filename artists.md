@@ -5,7 +5,8 @@ permalink: /artists/
 ---
 <div class="container">
   <ul>
-    {% for artist_hash in site.data.artists %}
+    {% assign sorted = site.data.artists | sort %}
+    {% for artist_hash in sorted %}
     {% assign artist = artist_hash[1] %}
     <li><a href="{{ "/artist/" | append: artist.page | relative_url }} ">{{ artist.artist }}</a></li>
     {% endfor %}
