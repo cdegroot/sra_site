@@ -14,6 +14,15 @@ permalink: /events/
   </div>
   <div class="row"><div class="col"><hr></div></div>
   <div class="row">
+    <div class="col">
+    Some of Split Rail Artists will be present on 2018's Rhubarb Fest in Priceville. Join us for art, woodworking, photography, fine foods, and probably lots of rhubarb!
+    </div>
+    <div class="col-6">
+     <img src="/assets/images/rhubarb_fest.jpg" width="500">
+    </div>
+  </div>
+  <div class="row"><div class="col"><hr></div></div>
+  <div class="row">
     <div style="height:295px; width:526px; overflow:hidden;">
       <img src="{{ "/assets/images/Canada%20Day%20Art%20Fair.jpg" | relative_url }}" class="img-fluid">
     </div>
