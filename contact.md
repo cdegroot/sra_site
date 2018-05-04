@@ -3,21 +3,19 @@ layout: page
 title: Join Us
 permalink: /contact/
 ---
-<div class="container">
-  <div class="row>">
-    <p>We are an informal group who meet weekly to paint, develop our skills and who willingly pitch in as needed.  Interested individuals may join us on Wednesdays from 10 am - 2 pm at the Flesherton Legion on Mary Street.</p>
-    <p>Ways you can participate:</p>
-    <ol>
-      <li>Contribute $3.00 weekly at group sessions.</li>
-      <li>Become a member  with a $40 fee per year.</li>
-      <li>Participate in workshops (fee extra). </li>
-      <li>Show your work at organized shows with group.</li>
-      <li>Be encouraging to the group in art and in life.</li>
-    </ol>
-    <p>Please fill out the contact form if you would like more information about our group and perhaps joining us.</p>
-  </div>
-  <div class="row">
-    <div class="col-8">
+We are a group of painters, sketchers, and dreamers who enjoy getting together to produce creative art in various mediums.  Our group meets at the Flesherton Legion on Wednesdays from 10 to 2, and the day is filled with lots of imagination, learning, helping and downright wacky fun.  Everyone is very approachable and we have all levels of skills.  If you think you would like to check us out or join the group these are the ways you can participate.
+
+* Paint, sketch, etc. with us on Wednesdays at the Legion in Flesherton.
+* Become a member ($30.00 per year).
+* Participate in a workshop (fee extra).
+* Show your work at one or more of our organized shows (eg. Canada Day weekend show,  Feversham,ON, Flesherton Fling group exhibit in August and a November December show at the library).
+
+For your convenience e-transfer banking is available at Split Rail Artists/CIBC. 
+
+For more information please use the contact form below.
+
+<div class="row">
+  <div class="col-8">
 		<form method="POST" action="https://formspree.io/formreply@splitrailartists.com">
 			<div class="form-group">
 			  <input type="email" name="email" placeholder="Your email" class="form-control" style="background-color:white;">
@@ -35,8 +33,7 @@ permalink: /contact/
 				<button type="submit">Send</button>
       </div>
 		</form>
-</div>
-<div class="col">
-</div>
+  </div>
+  <div class="col">
   </div>
 </div>
